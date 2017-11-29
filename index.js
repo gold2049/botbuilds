@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.login('MzY2OTI3MDkyODExNTYzMDA4.DP9trw.n4xDicCkJsMFOHTAvvSHY298icg');
+client.login(process.env.BOT_TOKEN);
 
 // Comando Ajuda
 bot.on('message',message => {
